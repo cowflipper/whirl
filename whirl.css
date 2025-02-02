@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER................ */
+
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menuDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+}
+
+.login{
+    display: flex;
+    gap: 25px;
+}
+.menuLink{
+    font-family:"Inter", serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #33383f;
+}
+
+.menuLogin{
+    font-family:"Inter", serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+}
+
+#signIn{
+    color: #0070a0;
+}
+
+#bookDemo{
+    padding: 10px 20px;
+    background-color: #0070a0;
+    color: #fff;;
+}
+
+/* FRAME_1................ */        
+
+.frame1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.div1_frame1{
+    padding-top: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+}
+
+.div2_frame1{
+    padding-top: 12px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+#bookDemo2{
+    font-family:"Inter", serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    letter-spacing: 0.01em;
+    padding: 8px 32px;
+    background-color: #0070a0;
+    color: #fff;;
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 110%;
+    letter-spacing: 0em;
+    color: #1f1f1f;
+}
+
+#p1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #1f1f1f;
+}
+
+#learnMore{
+    font-family:"Inter", serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    letter-spacing: 0.01em;
+    color: #0070a0;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+#learnMore::after{
+    content: url(assets/IMAGE_2_learnMore.svg);
+    display: inline-block;
+    width: 14px;
+    height: 21px;
+    margin-left: 5px;
+}
