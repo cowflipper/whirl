@@ -54,6 +54,10 @@ a{
     color: #33383f;
 }
 
+.menuLink:hover{
+    text-decoration: underline;
+}
+
 .menuLogin{
     font-family:"Inter", serif;
     font-weight: 400;
@@ -74,6 +78,8 @@ a{
     background-color: #0070a0;
     color: #fff;;
 }
+
+
 
 /* FRAME_1................... */        
 
